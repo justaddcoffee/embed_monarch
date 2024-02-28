@@ -1,0 +1,24 @@
+{
+  "template": "https://github.com/monarch-initiative/monarch-project-template",
+  "commit": "9d4f915d4a4cd1a9d8206506db1e261bc397de9c",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "embed_monarch",
+      "github_org_name": "monarch-initiative",
+      "__project_slug": "embed_monarch",
+      "project_description": "Workflow to create embeddings for the Monarch Knowledge Graph",
+      "min_python_version": "3.9",
+      "file_name": "main",
+      "greeting_recipient": "World",
+      "full_name": "Justin Reese",
+      "email": "justaddcoffee@gmail.com",
+      "__author": "Justin Reese <justaddcoffee@gmail.com>",
+      "license": "BSD-3",
+      "github_token_for_doc_deployment": "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",
+      "github_token_for_pypi_deployment": "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",
+      "_template": "https://github.com/monarch-initiative/monarch-project-template"
+    }
+  },
+  "directory": null
+}
