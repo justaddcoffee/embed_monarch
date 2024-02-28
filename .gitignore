@@ -132,3 +132,4 @@ dmypy.json
 *kg.tar.gz.*
 *-kg_edges.tsv
 *-kg_nodes.tsv
+*.csv.gz
