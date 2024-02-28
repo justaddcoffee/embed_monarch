@@ -129,5 +129,6 @@ dmypy.json
 .pyre/
 
 *kg.tar.gz
+*kg.tar.gz.*
 *-kg_edges.tsv
 *-kg_nodes.tsv
