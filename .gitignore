@@ -133,3 +133,4 @@ dmypy.json
 *-kg_edges.tsv
 *-kg_nodes.tsv
 *.csv.gz
+*.parquet
