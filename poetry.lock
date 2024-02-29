@@ -1090,6 +1090,17 @@ http2 = ["h2 (>=3,<5)"]
 socks = ["socksio (==1.*)"]
 
 [[package]]
+name = "huggingface-cli"
+version = "0.1"
+description = "HuggingFace integration"
+optional = false
+python-versions = "*"
+files = [
+    {file = "huggingface-cli-0.1.tar.gz", hash = "sha256:314ad7bd4475dee2ed1f9440f4c2aaaad2515a560bec5156849c050afa2e8211"},
+    {file = "huggingface_cli-0.1-py3-none-any.whl", hash = "sha256:78728ed06e0a0c8c4a6aa599652ad5ea60de187b33a21816eabb045c609f8832"},
+]
+
+[[package]]
 name = "humanize"
 version = "4.9.0"
 description = "Python humanize utilities"
@@ -4106,20 +4117,24 @@ tooling-extras = ["pyaml (>=23.7.0)", "pypandoc-binary (>=1.11)", "pytest (>=7.4
 
 [[package]]
 name = "venomx"
-version = "0.1.1"
+version = "0.0.0"
 description = "venomx"
 optional = false
-python-versions = ">=3.9,<4.0"
-files = [
-    {file = "venomx-0.1.1-py3-none-any.whl", hash = "sha256:323a68d57c2e9ce3171f02fa0296264213a1ac02d19b4e446f2452259dc4234e"},
-    {file = "venomx-0.1.1.tar.gz", hash = "sha256:844dd995cec070a47f8639943d5e8707fc64787406bd00335163f1b3a5a553b8"},
-]
+python-versions = "^3.9"
+files = []
+develop = false
 
 [package.dependencies]
 click = "*"
 importlib-metadata = ">=4.8.0"
-pandas = ">=2.2.0,<3.0.0"
-pyarrow = ">=15.0.0,<16.0.0"
+pandas = "^2.2.0"
+pyarrow = "^15.0.0"
+
+[package.source]
+type = "git"
+url = "https://github.com/justaddcoffee/venomx.git"
+reference = "fix_problem_converting_parquet"
+resolved_reference = "c4a9657cb909ffbbda450537d2074537029e785b"
 
 [[package]]
 name = "virtualenv"
@@ -4223,4 +4238,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "3db8f135a442efc2ba918d54f17ae8ffe2b5693259d646ef11b2ad9bf6c2539b"
+content-hash = "f8813f54805e7972c8d3323b1f75ecf1f259b5f63400add773b3b9f3c729cb51"

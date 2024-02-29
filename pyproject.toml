@@ -13,7 +13,8 @@ importlib-metadata = ">=4.8.0"
 jupyter = "^1.0.0"
 grape = "^0.2.4"
 pyarrow = "^15.0.0"
-venomx = "^0.1.1"
+venomx = { git = "https://github.com/justaddcoffee/venomx.git", branch = "fix_problem_converting_parquet" }
+huggingface-cli = "^0.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = {version = ">=7.1.2"}
