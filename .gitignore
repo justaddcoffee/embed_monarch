@@ -134,3 +134,4 @@ dmypy.json
 *-kg_nodes.tsv
 *.csv.gz
 *.parquet
+src/embed_monarch/*_metadata.yaml
