@@ -1,4 +1,4 @@
-"""Command line interface for OLDembed_monarch."""
+"""Command line interface for embed_monarch."""
 import logging
 
 import click

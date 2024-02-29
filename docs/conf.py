@@ -10,7 +10,7 @@ from embed_monarch import __version__
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "OLDembed_monarch"
+project = "embed_monarch"
 copyright = f"{date.today().year}, Justin Reese <justaddcoffee@gmail.com>"
 author = "Justin Reese <justaddcoffee@gmail.com>"
 release = __version__

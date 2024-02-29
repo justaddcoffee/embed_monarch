@@ -1,4 +1,4 @@
-"""OLDembed_monarch package."""
+"""embed_monarch package."""
 import importlib_metadata
 
 try:
