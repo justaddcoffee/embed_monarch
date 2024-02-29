@@ -5,7 +5,7 @@ dataset:
     source: "Monarch Initiative"
     version: "2024-02-13"
 embedding_model:
-    name: "First-order LINE"
-    title: "First-order LINE (Large-scale Information Network Embedding) from the GRAPE implementation"
+    name: "DeepWalk Skipgram"
+    title: "DeepWalk Skipgram from the GRAPE implementation"
     source: "GRAPE"
     version: "GRAPE version 0.2.4"
