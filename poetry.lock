@@ -4105,6 +4105,23 @@ tooling = ["black (>=23.7.0)", "pyright (>=1.1.325)", "ruff (>=0.0.287)"]
 tooling-extras = ["pyaml (>=23.7.0)", "pypandoc-binary (>=1.11)", "pytest (>=7.4.0)"]
 
 [[package]]
+name = "venomx"
+version = "0.1.1"
+description = "venomx"
+optional = false
+python-versions = ">=3.9,<4.0"
+files = [
+    {file = "venomx-0.1.1-py3-none-any.whl", hash = "sha256:323a68d57c2e9ce3171f02fa0296264213a1ac02d19b4e446f2452259dc4234e"},
+    {file = "venomx-0.1.1.tar.gz", hash = "sha256:844dd995cec070a47f8639943d5e8707fc64787406bd00335163f1b3a5a553b8"},
+]
+
+[package.dependencies]
+click = "*"
+importlib-metadata = ">=4.8.0"
+pandas = ">=2.2.0,<3.0.0"
+pyarrow = ">=15.0.0,<16.0.0"
+
+[[package]]
 name = "virtualenv"
 version = "20.25.1"
 description = "Virtual Python Environment builder"
@@ -4206,4 +4223,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "a67c4e334e49af3cd74e0964b24b93e417a71b094580b79ee5952cff54ccf590"
+content-hash = "3db8f135a442efc2ba918d54f17ae8ffe2b5693259d646ef11b2ad9bf6c2539b"
